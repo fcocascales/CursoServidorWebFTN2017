@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>AJAX 2</title>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script src="cliente2.js"></script>
+  <style>
+    div { width:200px; margin:1em; padding:1em; border:1px solid #ccc; display:inline-block; vertical-align:top; }
+    h2 { margin:0; }
+    li { cursor:pointer; }
+    li:hover { color:red; }
+    li.activo { font-weight:bold; }
+  </style>
+</head>
+<body>
+  <h1>AJAX 2</h1>
+  
+  <div>
+    <h2>Nivel:</h2>
+    <ol id="niveles">
+    </ol>
+  </div>
+  
+  <div>
+    <h2>Tema:</h2>
+    <ol id="temas">
+    </ol>
+  </div>
+  
+  <div>
+    <h2>Palabras:</h2>
+    <ol id="palabras">
+    </ol>
+  </div>
+  
+  <p><a href="index.html">Volver al índice</a></p>
+  
+  <p><img id="cargando" src="infinito.gif" /></p>
+  
+</body>
+</html>

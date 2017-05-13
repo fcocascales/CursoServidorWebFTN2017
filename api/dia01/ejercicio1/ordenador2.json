@@ -1,0 +1,22 @@
+{
+  "central_unit": [
+    {
+      "cpu":"Pentium",
+      "memory":"8 GB"
+    }
+  ],
+  "hard_disks": [
+    {
+      "size":"200 GB"
+    },
+    {
+      "size":"1 TB"
+    }
+  ],
+  "monitor": [
+    {
+      "resolution":"1920x1080px",
+      "size":"28 inch"
+    }
+  ]
+}

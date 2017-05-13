@@ -1,0 +1,89 @@
+xampp (Software libre)
+   
+	Aplicaciones para tener un
+	servidor web
+	
+	- Apache = Servidor HTTP, HTTPS (certbot)
+	  EnginX
+	- MySQL, MariaDB = Base de datos
+	- PHP = Lenguaje de programación
+	- Perl = Lenguaje de programación
+	
+Microsoft Windows (Software propietario)
+	- IIS - Internet Information Server
+	- Access, Microsoft SQL Server
+	- ASP.NET - C#, Visual Basic
+	
+Lenguajes de programación
+http://www.tiobe.com/tiobe-index/
+    - Ensamblador (Lenguaje máquina)
+	- C (Programar el sistema operativo UNIX)
+    - C++ (Programación orientada a objetos)
+	- Java (Android)
+	- C# (inspirado en Java)
+	- PHP (Creación de página web en servidor)
+	- Javascript (En el navegador web)
+	
+XAMPP	
+    - Panel de control
+	  Arrancar los servicio:
+	  - Apache - Servidor web
+	  - MySQL
+
+Dominios y las IP	
+    - Dominio = El nombre de la web
+	    google.com
+		proinf.net
+		wikipedia.org
+	- IP = Dirección de una máquina en Internet
+		123.45.89.6  (0..255)
+		4 bytes
+	- DNS = Domain Name Server
+		8.8.8.8
+		8.8.4.4
+	- Ventana de comandos (CMD)
+	    ipconfig
+		ping google.com
+	- Mi IP pública: cualesmiip.com
+
+Cliente y Servidor
+
+	- En Internet es una red 
+	- La comunicación es de un cliente
+	  a un servidor
+	- Un cliente hace peticiones al servidor
+	- El servidor atiende las peticiones    
+	  de los todos los clientes.
+	- El protocolo es el lenguaje de comunicación
+	  entre el cliente y el servidor
+
+	Páginas web:
+	- Protocolos: HTTP 80, HTTPS 443
+	- Cliente: Chrome, Firefox, Edge, Opera, Safari
+	- Se envía: HTML, CSS, 
+	- Servidor: Apache, EnginX, IIS
+	
+	FTP:
+	- Protocolos: FTP 21, SFTP 22
+	- Cliente: FileZilla Client
+	- Servidor: FileZilla Server
+
+Frontend y Backend
+
+	Frontend - Parte pública de una web
+	  Escaparate
+	Backend - Parte privada de una web
+	  Necesita autenticación con usuario y 
+	  contraseña. Trastienda.
+	  Gestor de contenidos.
+
+Al instalar el XAMPP nuestro ordenador
+es un servidor web.
+	
+	localhost
+	127.0.0.1
+   
+
+
+
+	

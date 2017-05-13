@@ -1,0 +1,46 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Cálculo con Javascript</title>
+    <script>
+      function calcular(orden) {
+        var operando1 = document.getElementById('operando1');
+        var operando2 = document.getElementById('operando2');
+        var resultado = document.getElementById('resultado');
+
+        var numero1 = parseFloat(operando1.value);
+        var numero2 = parseFloat(operando2.value);
+
+        switch(orden) {
+          case 'suma':     resultado.value = numero1 + numero2; break;
+          case 'resta':    resultado.value = numero1 - numero2; break;
+          case 'producto': resultado.value = numero1 * numero2; break;
+          case 'division': resultado.value = numero1 / numero2; break;
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <h1>Cálculo con Javascript</h1>
+    <form>
+      <p>
+        <label for="operando1">Operando 1</label>
+        <input type="text" id="operando1">
+      </p>
+      <p>
+        <label for="operando2">Operando 2</label>
+        <input type="text" id="operando2">
+      </p>
+      <p>
+        <button type="button" onclick="calcular('suma')">Sumar</button>
+        <button type="button" onclick="calcular('resta')">Restar</button>
+        <button type="button" onclick="calcular('producto')">Multiplicar</button>
+        <button type="button" onclick="calcular('division')">Dividir</button>
+      </p>
+      <p>
+        <label for="resultado">Resultado</label>
+        <input type="text" id="resultado" readonly>
+      </p>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<computer>
+  <central_unit cpu="Pentium" memory="8 GB" />
+  <hard_disks>
+    <hd size="200 GB" />
+    <hd size="1 TB" />
+  </hard_disks>
+  <monitor resolution="1920x1080px"
+           size="28 inch" />
+</computer>

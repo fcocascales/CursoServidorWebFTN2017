@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<agenda>
+  <contacto id="101">    
+    <nombre>Pepe</nombre>
+    <telefono>123-45-56</telefono>
+  </contacto>
+  <contacto id="102">
+    <nombre>Juana</nombre>
+    <telefono>456-78-90</telefono>
+  </contacto>
+</agenda>

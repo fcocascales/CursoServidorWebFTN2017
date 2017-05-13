@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<factura>
+  <numero>1001</numero>
+  <cliente>ACME, S.A.</cliente>
+  <fecha>2017-04-24</fecha>
+  <iva>0.21</iva>
+  <detalles>
+    <detalle>
+      <producto>Sofá</producto>
+      <unidades>1</unidades>
+      <precio>300</precio>
+    </detalle>
+    <detalle>
+      <producto>Silla</producto>
+      <unidades>4</unidades>
+      <precio>39</precio>
+    </detalle>
+  </detalles>
+</factura>

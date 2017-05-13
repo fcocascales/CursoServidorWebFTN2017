@@ -1,0 +1,15 @@
+Mi segunda página web con PHP
+-----------------------------
+1) Crear una página "dos.php"
+   con el siguiente código:
+   
+   <!DOCTYPE html>
+   <html>
+   <head>
+   <meta charset="utf-8" />
+   <title>Dos</title>
+   </head>
+   <body>
+   <h1>Dos</h1>
+   </body>
+   </html>

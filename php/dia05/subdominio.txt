@@ -1,0 +1,44 @@
+Crear un dominio en mi servidor local
+que apunte a la carpeta del dia05
+
+Nombre del dominio:
+  http://dia5.localhost
+  http://pepito
+
+Contratado un dominio:
+  cursoweb.com
+  dia5.cursoweb.com (Se puede crear en el panel de control)
+
+Editar el fichero "hosts" (fichero de texto)
+
+  Windows: "C:\Windows\System32\drivers\etc\hosts"
+  Linux:   "/etc/hosts"
+
+Añadir las siguientes líneas al fichero hosts:
+  127.0.0.1	  pepito
+  127.0.0.1   dia5
+
+En el navegador web al poner
+  http://pepito/ o http://dia5/ aparece la
+  página de inicio de mi servidor web Apache
+
+Configurar el Apache para añadir más sitios web.
+De esta manera puede mostrar distintos sitios web
+según el dominio: localhost, pepito, dia5
+
+Al añadir un sitio web en el Apache se especifica:
+  - El dominio
+  - La carpeta de los ficheros
+
+El fichero de configuración del Apache
+  C:\xampp\apache\conf\httpd.conf
+
+  <VirtualHost *:80>
+      ServerName pepito
+      DocumentRoot "C:\Francisco\dia05"
+  	<Directory "C:\Francisco\dia05">
+          Options Indexes FollowSymLinks
+          AllowOverride None
+          Require all granted
+  	</Directory>
+  </VirtualHost>

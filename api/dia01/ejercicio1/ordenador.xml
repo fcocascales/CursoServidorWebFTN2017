@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<computer>
+  <central_unit>
+    <cpu>Pentium</cpu>
+    <memory>8 GB</memory>
+  </central_unit>
+  <hard_disk>200 GB</hard_disk>
+  <hard_disk>1 TB</hard_disk>
+  <monitor>
+    <resolution>1920x1080px</resolution>
+    <size>28 inch</size>
+  </monitor>
+</computer>

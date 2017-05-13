@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Formulario</title>
+  <style media="screen">
+    ul { list-style-type:none; margin:1em; padding:0; }
+    li { margin:1em 0; }
+    body { background-color:#eee; }
+    input[type="text"] { width:2em; }
+    .off { opacity:0.5; }
+  </style>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript">
+    $(function(){
+
+      $('form').submit(function() {
+
+        alert('yo');
+        return false;
+
+      });
+
+      $('input[type=radio][name=type]').change(function (){
+        //alert(this.value); //$(this).id);
+        $('form li').addClass('off');
+        var obj = $(this);
+        alert($(this));
+        $(this).parent('li').removeClass('off');
+      });
+
+    });
+  </script>
+</head>
+<body>
+  <h1>Ejercicio 17</h1>
+
+  <h2>Formulario</h2>
+  <form action="rest.php" method="get" onsubmit="return enviar(this);">
+    <input type="hidden" name="continente_id" value="">
+    <ul>
+      <li>
+        <label><input type="radio" checked name="type" id="type1" value="1">rest.php/continentes</label>
+      </li>
+      <li class="off">
+        <label><input type="radio" name="type" id="type2" value="2">rest.php/paises?continente_id=</label><input type="text" id="continente_id" value="1">
+      </li>
+      <li class="off">
+        <label><input type="radio" name="type" id="type3" value="3">rest.php/paises/</label><input type="text" id="pais_id" value="1">
+      </li>
+    </ul>
+    <button>Enviar</button>
+  </form>
+
+</body>
+</html>

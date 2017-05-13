@@ -1,0 +1,4 @@
+body { background-color:pink; }
+#contenido { background-color:white; }
+#menu { background-color:orange; }
+#menu li.current a { font-weight:bold; color:#000; }

@@ -1,0 +1,31 @@
+# Catalan translations for multiidioma package
+# Traduccions al català del paquet «multiidioma».
+# Copyright (C) 2017 THE multiidioma'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the multiidioma package.
+# Automatically generated, 2017.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: multiidioma 10\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-09 20:20+0100\n"
+"PO-Revision-Date: 2017-03-09 20:36+0100\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: ca\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+
+#: ../pagina1.php:10 ../pagina1.php:14
+msgid "Last news"
+msgstr "Últimes notícies"
+
+#: ../pagina1.php:15
+msgid "Two arrested for 12 'landings' in the Vallès"
+msgstr "Dos detinguts per 12 'allunatges' al Vallès"
+
+#: ../pagina1.php:16
+msgid "The thieves crashed vehicles they had stolen from shop windows"
+msgstr "Els lladres s'estavellaven vehicles que havien robat contra aparadors"

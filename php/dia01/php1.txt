@@ -1,0 +1,15 @@
+Mi primera web con PHP
+----------------------
+1) En la carpeta C:\xampp\htdocs\dia01
+2) Dentro de la carpeta crearemos el fichero:
+   hola.php
+3) El código PHP del fichero:
+      <?php
+           echo "Hola Mundo";
+      ?>
+4) Para probar la página hay que ir a
+   la dirección:
+      http://localhost/dia01/hola.php   
+    
+   Al mostrar el código fuente no hay   
+   ningún código PHP

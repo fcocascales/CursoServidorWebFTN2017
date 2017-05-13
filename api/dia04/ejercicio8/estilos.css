@@ -1,0 +1,13 @@
+/* estilos.css */
+
+body { font-family:Verdana,sans-serif; }
+
+h1, h2, h3 { font-weight:normal; }
+
+.icono { width:100px; float:left; }
+
+.referencia { color:#ccc; }
+.referencia a { color:#aaa; }
+
+.max { color:#f66; }
+.min { color:#66f; }

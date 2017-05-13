@@ -1,0 +1,45 @@
+#image, #fondo {
+  position:absolute; top:0; left:0; right:0; bottom:0;
+}
+#image {
+  z-index:-2;
+  background-image: url(feed.svg.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+}
+#fondo {
+  z-index:-1;
+  background-color:rgba(255,255,255,0.9);
+}
+
+.articulo {
+  margin:1em;
+  padding:1em;
+  border:1px solid #ccc;
+  background-color:#eee;
+  border-radius:1em;
+  color:#333;
+}
+.articulo > h2 {
+  font-weight:normal;
+  margin:0;
+}
+.articulo a {
+  text-decoration:none;
+}
+.articulo a:hover {
+  text-decoration:underline;
+}
+.articulo a:visited {
+  color:#999;
+}
+.articulo > .fecha {
+  color:#999;
+  font-size:0.8em;
+}
+.articulo > .texto {
+  padding:1em;
+  background-color:#ddd;
+  border:1px solid #ccc;
+}

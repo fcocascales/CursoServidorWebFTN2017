@@ -1,0 +1,13 @@
+2017-03-08 11:13|::1|Firefox|ca,es-ES;q=0.8,en-US;q=0.5,en;q=0.3|hola
+2017-03-08 11:13|::1|Firefox|ca,es-ES;q=0.8,en-US;q=0.5,en;q=0.3|pepe
+2017-03-08 11:13|::1|Firefox|ca,es-ES;q=0.8,en-US;q=0.5,en;q=0.3|adiós
+2017-03-08 11:28|::1|Chrome|ca,es-ES;q=0.8,es;q=0.6|hola
+2017-03-08 11:37|::1|Chrome|ca,es-ES;q=0.8,es;q=0.6|
+2017-03-08 11:37|::1|Chrome|ca,es-ES;q=0.8,es;q=0.6|BCN
+2017-03-08 11:38|::1|Chrome|ca,es-ES;q=0.8,es;q=0.6|abra
+2017-03-08 11:38|::1|Chrome|ca,es-ES;q=0.8,es;q=0.6|
+2017-03-08 11:41|::1|Chrome|ca,es-ES,es|y
+2017-03-08 11:44|::1|Chrome|ca,es-ES,es|ass
+2017-03-08 11:44|::1|Chrome|ca,es|yui
+2017-03-08 11:45|::1|Firefox|ca,es,en|otro
+2017-03-08 11:48|::1|Firefox|ca,es,en|hun

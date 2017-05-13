@@ -1,0 +1,18 @@
+EJERCICIO de variables de sesión
+--------------------------------
+Estructura de carpetas y archivos:
+  fantasia (carpeta)
+    - clave.php
+    - unicornio.php - foto
+    - alicia.php    - foto
+    - centauro.php  - foto
+    - dragon.php    - foto
+
+En cada página hay que poner una foto.
+En la página clave hay que hacer un formulario
+  para introducir la clave secreta y recordarla.
+La página clave tiene enlaces al resto de páginas.
+En las páginas con foto hay un enlace a la página clave.
+
+Las fotos se han de mostrar sólo si se acertó
+con la clave que es.

@@ -1,0 +1,18 @@
+{
+  "numero": "1001",
+  "cliente": "ACME, S.A",
+  "fecha": "2017-04-24",
+  "iva": 0.21,
+  "detalles": [
+    {
+      "producto": "Sofá",
+      "unidades": 1,
+      "precio": 300
+    },
+    {
+      "producto": "Silla",
+      "unidades": 4,
+      "precio": 39
+    }
+  ]
+}

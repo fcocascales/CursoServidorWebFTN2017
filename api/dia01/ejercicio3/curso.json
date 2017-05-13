@@ -1,0 +1,16 @@
+{
+  "profesor": "Francisco",
+  "alumnos": [
+    "Toni", "Barlan", "David", "Emilio",
+    "Jordi", "Marta", "Sergio", "Víctor"
+  ],
+  "aula": 11,
+  "ordenadores": 21,
+  "horario": {
+    "dias": [
+      "lun", "mar", "mié", "jue", "vie"
+    ],
+    "hora_inicio":"9:00",
+    "hora_final":"14:00"
+  }
+}

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<curso
+  profesor="Francisco"
+  aula="11"
+  ordenadores="11">
+  <alumno>Toni</alumno>
+  <alumno>Barlan</alumno>
+  <alumno>David</alumno>
+  <alumno>Emilio</alumno>
+  <alumno>Jordi</alumno>
+  <alumno>Marta</alumno>
+  <alumno>Sergio</alumno>
+  <alumno>Victor</alumno>  
+  <horario
+    hora_inicio="9:00"
+    hora_final="14:00">
+    <dia>lun</dia>
+    <dia>mar</dia>
+    <dia>mié</dia>
+    <dia>jue</dia>
+    <dia>vie</dia>
+  </horario>
+</curso>

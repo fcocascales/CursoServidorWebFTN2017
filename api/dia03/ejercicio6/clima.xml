@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clima>
+  <ciudad min_temp="15" max_temp="23">Barcelona</ciudad>
+  <ciudad min_temp="18" max_temp="26">Sevilla</ciudad>
+  <ciudad min_temp="11" max_temp="14">Bilbao</ciudad>
+  <ciudad min_temp="16" max_temp="24">Valencia</ciudad>
+</clima>
