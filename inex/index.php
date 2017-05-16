@@ -19,10 +19,33 @@ class Index extends ClassIndex {
 			'title'=> "Informes de Neptuno con PDO y HTML",
 			'links'=> array(
 				'app.md'=> "Aplicaciones web",
-				'ejercicio2/ejercicio2.md'=> "Informes de Neptuno",
-				'ejercicio2/'=> "Solución del ejercicio 2",
+				'ejercicio2.md'=> "Ejercicio de informes de Neptuno",
 				'fetchall.php'=> "Modos de funcionamiento de fetchAll",
 				'fetchall.html'=> "Ídem",
+			)
+		),
+		array( // dia3
+			'title'=> "Informes de Neptuno con PDO y HTML",
+			'links'=> array(
+				'ejercicio2/ejercicio2.md'=> "Informes de Neptuno",
+				'ejercicio2/'=> "Solución del ejercicio 2",
+			)
+		),
+		array( // dia4
+			'title'=> "Paginación",
+			'links'=> array(
+				'paginacion/paginacion.md'=> "Apuntes sobre paginación",
+				'paginacion/clientes.md'=> "Ejercicio de paginación de clientes",
+				'paginacion/clientes.php'=> "Solución del ejercicio",
+			)
+		),
+		array( // dia5
+			'title'=> "Paginación con filtros",
+			'links'=> array(
+				'paginacion2/paginacion2.md'=> "Apuntes de paginación 2",
+				'paginacion2/prueba.php'=> "Prueba de SQL_CALC_FOUND_ROWS",
+				'paginacion2/productos.md'=> "Ejercicio de paginación de productos con filtro",
+				'paginacion2/productos.php'=> "Solución del ejercicio",
 			)
 		),
 	);

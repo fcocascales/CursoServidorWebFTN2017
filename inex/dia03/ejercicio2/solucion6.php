@@ -43,7 +43,7 @@
       echo $row['fecha']. " &mdash; ";
       echo number_format($row['total'], 2, ",", ".")." €</li>\n";
     }
-    if ($mesAnterior != "") echo "</ul>";
+    if ($añoAnterior != "") echo "</ul>";
   ?>
 </body>
 </html>

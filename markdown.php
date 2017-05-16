@@ -1,5 +1,5 @@
 <?php
-  require_once "parsedown-master/Parsedown.php";
+  require_once "lib/parsedown-master/Parsedown.php";
 
   $file = isset($_GET['md'])?$_GET['md']:'';
 
