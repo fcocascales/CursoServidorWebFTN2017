@@ -16,7 +16,7 @@ class Index extends ClassIndex {
 			)
 		),
 		array( // dia2
-			'title'=> "Informes de Neptuno con PDO y HTML",
+			'title'=> "Tipos de fetch en el PDO",
 			'links'=> array(
 				'app.md'=> "Aplicaciones web",
 				'ejercicio2.md'=> "Ejercicio de informes de Neptuno",
@@ -45,7 +45,22 @@ class Index extends ClassIndex {
 				'paginacion2/paginacion2.md'=> "Apuntes de paginación 2",
 				'paginacion2/prueba.php'=> "Prueba de SQL_CALC_FOUND_ROWS",
 				'paginacion2/productos.md'=> "Ejercicio de paginación de productos con filtro",
-				'paginacion2/productos.php'=> "Solución del ejercicio",
+				'paginacion2/productos.php'=> "Solución",
+				'plugins-atom.md'=> "Plugins para Atom.io: Emmet, Linter",
+				'emmet.html'=> "Prueba de Emmet en HTML",
+				'emmet.css'=> "Prueba de Emmet en CSS",
+			)
+		),
+		array( // dia6
+			'title'=> "Subir ficheros y login",
+			'links'=> array(
+				'atom-linter.md'=> "Instalación del plugin Linter para Atom.io",
+				'upload/subir-ficheros.md'=> "Cómo subir ficheros",
+				'upload/subir-test.php'=> "Prueba de subir",
+				'upload/subir-foto.php'=> "Cambiar una foto de la página",
+				'upload/subir-galeria.php'=> "Añadir fotos a una galería",
+				'login/usuario.sql'=> "Tabla usuarios en la BD",
+				'login/login.php'=> "Conexión de usuario al backend",
 			)
 		),
 	);

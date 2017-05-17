@@ -7,6 +7,11 @@
         $user = "NIF_nombre";
         $password = "XXXXXX";
         break;
+      case 'probando.localhost':
+        $conexion = "mysql:host=localhost;dbname=bd_neptuno;charset=utf8";
+        $user = "root";
+        $password = "cascales";
+        break;
       case 'localhost':
       default:
         $conexion = "mysql:host=localhost;dbname=bd_neptuno;charset=utf8";
