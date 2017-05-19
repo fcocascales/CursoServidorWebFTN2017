@@ -63,6 +63,27 @@ class Index extends ClassIndex {
 				'login/login.php'=> "Conexión de usuario al backend",
 			)
 		),
+		array( // dia6
+			'title'=> "Plantilla frontend",
+			'links'=> array(
+				'design/design.md'=> "Ideas para construir el frontend y el backend",
+				'design/plantilla.md'=> "Diseño de la plantilla frontend",
+				'design/frontend.html'=> "Plantilla frontend",
+				'design/frontend.css'=> "Hoja de estilos",
+				'design/font-awesome.md'=> "Iconos para las redes sociales",
+				'bd_extranet.sql'=> "Base de datos para el frontend y el backend",
+				'frontend/index.php'=> "Versión 1 del frontend",
+			)
+		),
+		array( // dia7
+			'title'=> "Página categorías del frontend ",
+			'links'=> array(
+				'extranet2.md'=> "Continuación del frontend del día anterior",
+				'categoria.md'=> "Ejercicio de la página categoría",
+				'database/actualizacion1.sql'=> "Cambiar el nombre de algunas categorías",
+				'frontend/index.php'=> "Versión 2 del frontend",
+			)
+		),
 	);
 }
 
