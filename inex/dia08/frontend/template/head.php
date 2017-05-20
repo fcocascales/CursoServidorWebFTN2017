@@ -1,5 +1,15 @@
 <?php
-  require_once "lib/categorias.php";
+
+  function imprimirNavegadorCategorias() {
+    require_once "lib/categorias.php";
+    $idActual = obtenerIdCategoriaActual();
+    echo "<ul>\n";
+    foreach (obtenerCategorias() as $id=>$nombre) {
+      $class = ($id == $idActual)? ' class="actual"' : '';
+      echo "\t\t\t<li><a href=\"categoria.php?id=$id\"$class>$nombre</a></li>\n";
+    }
+    echo "\t\t</ul>\n";
+  }
 
 ?><!DOCTYPE html>
 <html>
@@ -36,15 +46,7 @@
         if (isset($include)) include $include;
       ?>
       <nav id="navigator">
-        <ul>
-          <?php
-            $idActual = obtenerIdCategoriaActual();
-            foreach (obtenerCategorias() as $id=>$nombre) {
-              $class = ($id == $idActual)? 'actual' : '';
-              echo "<li><a href=\"categoria.php?id=$id\" class=\"$class\">$nombre</a></li>";
-            }
-           ?>
-        </ul>
+        <?php imprimirNavegadorCategorias() ?>
       </nav>
     </header>
     <main id="pagemain">

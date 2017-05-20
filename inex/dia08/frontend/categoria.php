@@ -1,16 +1,30 @@
 <?php
-  $title = "Thor categoría";
-  $keywords = "thor, alimento, comida, catálogo";
-  $description = "Catálogo de productos alimenticios de primera calidad"; // 150 carácteres
+
+  //=============================================
+  // ENCABEZADO DE PÁGINA
+
+  $title = obtenerTituloPagina()." - Thor";
+  $keywords = "thor, alimento, categoría, filtro, ordenación";
+  $description = "Categorías de productos alimenticios filtrado y ordenado"; // 150 carácteres
   $extra = '<link rel="stylesheet" href="mod/photocategory/styles.css">';
   $include = "mod/photocategory/include.php";
   include "template/head.php";
-?>
-<?php
 
-  // Aquí va el contenido principal de esta página
+  function obtenerTituloPagina() {
+    require_once "lib/categorias.php";
+    $idActual = obtenerIdCategoriaActual();
+    $nombre = obtenerNombreCategoria($idActual);
+    return $nombre;
+  }
 
-?>
-<?php
+  //=============================================
+  // CUERPO DE PÁGINA
+
+
+
+
+  //=============================================
+  // PIE DE PÁGINA
+
   include "template/foot.php";
 ?>

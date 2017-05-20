@@ -18,11 +18,11 @@ Extranet 2: Continuación del frontend
     - **css** = Hojas de estilo
     - **img** = Imágenes
     - **js** = Código Javascript
-    - **lib** = Library (biblioteca de funciones)
-    - **mod** = Módulos
+    - **lib** = Library (biblioteca de funciones y acceso a la BD)
+    - **mod** = Módulos adicionales
       - **fa** = Font-Awesome (iconos)
       - **slider** = Carrusel de fotos (por hacer)
-    - **template** = Plantilla de las páginas
+    - **template** = Plantilla de las páginas (head & foot)
 
 ## Ir a la página de inicio
 

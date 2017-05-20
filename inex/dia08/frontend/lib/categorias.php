@@ -6,7 +6,7 @@ require_once "conexion.php";
   id => nombre
   1 => Bebidas
   2 => Carnes
-  etc...
+  ...
 */
 function obtenerCategorias(/*$pdo*/) {
   $pdo = conexion();
@@ -25,11 +25,17 @@ function obtenerIdCategoriaActual() {
 }
 
 function obtenerDescripcionCategoria($id) {
-  $pdo = conexion();
   $sql = "SELECT descripcion FROM categorias WHERE id = ?";
+  return buscarValor($sql, $id);
+}
+function obtenerNombreCategoria($id) {
+  $sql = "SELECT categoria FROM categorias WHERE id = ?";
+  return buscarValor($sql, $id);
+}
+function buscarValor($sql, $id) {
+  $pdo = conexion();
   $result = $pdo->prepare($sql);
   $result->execute(array($id));
   $row = $result->fetch(PDO::FETCH_NUM);
-  $descripcion = $row[0];
-  return $descripcion;
+  return $row[0];
 }
