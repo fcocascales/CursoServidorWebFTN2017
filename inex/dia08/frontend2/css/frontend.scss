@@ -1,0 +1,145 @@
+// SCSS
+// Plugin atom.io:
+//   sass-autocompile
+// Require:
+//   sudo npm install node-sass -g
+
+$fondo: #fff;
+$panel: #acd;
+$texto: #333;
+$link: #000;
+$hover: #eee;
+
+$pagewidth: 1200px;
+$mobilewidth: 800px;
+
+// @include centered();
+@mixin centered() {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  background-color: $fondo;
+  font-family: sans-serif;
+  color: $texto;
+  overflow-y: scroll;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+#page {
+  max-width: $pagewidth;
+}
+
+#pageheader {
+}
+
+#super {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#logo {
+  padding: 4px 0;
+}
+
+#title {
+  margin:0;
+  a {
+    text-decoration: none;
+    color: $link;
+  }
+}
+
+#search {
+  input {
+    width: 300px;
+  }
+}
+
+#navigator {
+  background-color: $panel;
+  >ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  a {
+    display: inline-block;
+    padding: 1em;
+    text-decoration: none;
+    color: $link;
+    &:hover {
+      background-color: $hover;
+    }
+    &.actual {
+      background-color: $link;
+      color: $fondo;
+    }
+  }
+}
+
+#pagemain {
+  >section {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+#pagefooter {
+  background-color: $panel;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2em;
+  margin-top: 2em;
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  a {
+    text-decoration: none;
+    color: $link;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+#menu {
+  li {
+    margin: 0.5em 0;
+  }
+}
+
+@media (max-width: $mobilewidth) {
+  #super {
+    flex-direction: column;
+  }
+  #slider {
+    display: none;
+  }
+  #navigator {
+    >ul {
+      flex-direction: column;
+    }
+    a {
+      display: block;
+    }
+  }
+  #pagemain {
+    >section {
+      flex-direction: column;
+    }
+  }
+  #pagefooter {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
