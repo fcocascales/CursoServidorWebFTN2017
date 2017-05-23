@@ -63,7 +63,7 @@ class Index extends ClassIndex {
 				'login/login.php'=> "Conexión de usuario al backend",
 			)
 		),
-		array( // dia6
+		array( // dia7
 			'title'=> "Plantilla frontend",
 			'links'=> array(
 				'design/design.md'=> "Ideas para construir el frontend y el backend",
@@ -75,13 +75,27 @@ class Index extends ClassIndex {
 				'frontend/index.php'=> "Versión 1 del frontend",
 			)
 		),
-		array( // dia7
+		array( // dia8
 			'title'=> "Página categorías del frontend ",
 			'links'=> array(
 				'extranet2.md'=> "Continuación del frontend del día anterior",
 				'categoria.md'=> "Ejercicio de la página categoría",
 				'database/actualizacion1.sql'=> "Cambiar el nombre de algunas categorías",
 				'frontend/index.php'=> "Versión 2 del frontend",
+			)
+		),
+		array( // dia9
+			'title'=> "Filtros y paginación de productos",
+			'links'=> array(
+				'extranet3.md'=> "Continuación del frontend",
+				'frontend/index.php'=> "Versión 3 del frontend",
+			)
+		),
+		array( // dia10
+			'title'=> "Ficha de productos y botón menú responsive",
+			'links'=> array(
+				'extranet4.md'=> "Continuación del frontend",
+				'frontend/index.php'=> "Versión 4 del frontend",
 			)
 		),
 	);

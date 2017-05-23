@@ -46,6 +46,7 @@ public static function head() {
     if (!empty(self::$include)) include self::$include;
   ?>
   <nav id="navigator">
+    <div id="toggle_nav"><span>≡</span>Menú</div>
     <?php self::printNavigatorCategories() ?>
   </nav>
 </header>
