@@ -72,7 +72,7 @@ class Index extends ClassIndex {
 				'design/frontend.css'=> "Hoja de estilos",
 				'design/font-awesome.md'=> "Iconos para las redes sociales",
 				'bd_extranet.sql'=> "Base de datos para el frontend y el backend",
-				'frontend/index.php'=> "Versión 1 del frontend",
+				'frontend/'=> "Versión 1 del frontend",
 			)
 		),
 		array( // dia8
@@ -81,21 +81,29 @@ class Index extends ClassIndex {
 				'extranet2.md'=> "Continuación del frontend del día anterior",
 				'categoria.md'=> "Ejercicio de la página categoría",
 				'database/actualizacion1.sql'=> "Cambiar el nombre de algunas categorías",
-				'frontend/index.php'=> "Versión 2 del frontend",
+				'frontend/'=> "Versión 2 del frontend",
 			)
 		),
 		array( // dia9
 			'title'=> "Filtros y paginación de productos",
 			'links'=> array(
 				'extranet3.md'=> "Continuación del frontend",
-				'frontend/index.php'=> "Versión 3 del frontend",
+				'frontend/'=> "Versión 3 del frontend",
 			)
 		),
 		array( // dia10
 			'title'=> "Ficha de productos y botón menú responsive",
 			'links'=> array(
 				'extranet4.md'=> "Continuación del frontend",
-				'frontend/index.php'=> "Versión 4 del frontend",
+				'frontend/'=> "Versión 4 del frontend",
+			)
+		),
+		array( // dia11
+			'title'=> "Página de ficha y buscador. Refactorización. Login backend",
+			'links'=> array(
+				'extranet5.md'=> "Continuación del frontend",
+				'frontend/'=> "Versión 5 del frontend",
+				'frontend/backend/'=> "Login al backend",
 			)
 		),
 	);

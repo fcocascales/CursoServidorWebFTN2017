@@ -24,8 +24,10 @@
   </ol>
   <h2>URL</h2>
   <ol>
-    <li><a href="url.md">url.md</a> &mdash; </li>
-    <li><a href="url1.php">url1.php</a> &mdash; </li>
+    <li><a href="url.md">url.md</a> &mdash; Apuntes de parámetros URL</li>
+    <li><a href="url1.php">url1.php</a> &mdash; Parámetros URL</li>
+    <li><a href="url2.php">url2.php</a> &mdash; Enlaces con parámetros URL</li>
+    <li><a href="url3.php">url3.php</a> &mdash; Formulario con método GET</li>
   </ol>
 </body>
 </html>

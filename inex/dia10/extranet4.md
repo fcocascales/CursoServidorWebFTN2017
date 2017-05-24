@@ -72,3 +72,8 @@ Extranet 4: Continuación del frontend
 
    - Añadir el código en "frontend.js"
    - Añadir el id "filtrar" al formulario
+
+## Añadir guiones para palabras que no caben en una línea
+
+   - En "css/productos.css" poner en el selector del **.proveedor** el estilo `hyphens: auto;`
+   - En "template/head.php" poner `<html lang="es">`

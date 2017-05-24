@@ -63,7 +63,7 @@ select, input, textarea, button {
     color: #000;
   }
   #navigator a:hover {
-    background-color: #eee;
+    background-color: #cef;
   }
   #navigator a.actual {
     background-color: #000;
@@ -97,6 +97,12 @@ select, input, textarea, button {
   }
 
 @media (min-width: 800px) {
+  #navigator a {
+    border-left: 1px solid #bde;
+  }
+  #navigator li:first-child a {
+    border-left: none;
+  }
   #navigator a.actual {
     border-bottom: 4px solid salmon;
     padding-bottom: calc(1em - 4px);

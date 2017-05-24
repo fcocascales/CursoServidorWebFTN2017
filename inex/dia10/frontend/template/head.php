@@ -12,7 +12,7 @@
   }
 
 ?><!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
   <meta charset="utf-8">
   <meta name="keywords" content="<?php echo $keywords ?>">
