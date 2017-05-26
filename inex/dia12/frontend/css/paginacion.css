@@ -1,0 +1,39 @@
+/* paginacion.css */
+
+#paginacion {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 800px;
+}
+#paginacion li {
+}
+#paginacion strong, #paginacion a {
+  display: block;
+  width: 3em;
+  height: 3em;
+  line-height: 3em;
+  text-align: center;
+  border: 1px solid rgba(0,0,0, 0.1);
+}
+#paginacion strong {
+  background-color: #abc;
+  color: #def;
+}
+#paginacion a {
+  text-decoration: none;
+  color: #000;
+}
+#paginacion a:hover {
+  background-color: #cef;
+}
+
+
+@media (max-width: 800px) {
+  #paginacion {
+    width: 100%;
+  }
+}

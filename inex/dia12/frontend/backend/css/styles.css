@@ -1,0 +1,6 @@
+/* backend/css/styles.css */
+
+@import "backend.css";
+@import "paginacion.css";
+@import "gestor.css";
+@import "form.css";

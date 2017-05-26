@@ -1,0 +1,162 @@
+/*  * {  outline: 1px solid green; }  */
+
+body {
+  background-color:#fff;
+  font-family:sans-serif;
+  color:#333;
+  overflow-y:scroll;
+  margin:0;
+  display:flex;
+  justify-content: center;
+}
+select, input, textarea, button {
+  font-size: 1em;
+}
+#page {
+  max-width:1200px;
+}
+#pageheader {
+}
+  #super {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+    #logo {
+      padding:4px 0;
+    }
+    #title {
+      margin:0;
+      text-align: center;
+    }
+    #title a {
+      text-decoration: none;
+      color: #000;
+    }
+    #search {
+      text-align: center;
+    }
+    #search input {
+      width:300px;
+    }
+  #navigator {
+    background-color: #acd;
+  }
+  #toggle_nav {
+    display: none;
+  }
+  #navigator>ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  #navigator li {
+    flex: auto;
+    text-align: center;
+  }
+  #navigator a {
+    display: block; /*inline-block;*/
+    padding: 1em 0;
+    text-decoration: none;
+    color: #000;
+  }
+  #navigator a:hover {
+    background-color: #cef;
+  }
+  #navigator a.actual {
+    background-color: #000;
+    color: #fff;
+  }
+#pagemain {
+}
+#pagemain h1 {
+  margin:1em 0 0 0;
+}
+#pagefooter {
+  background-color: #acd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2em;
+  margin-top: 2em;
+}
+#pagefooter ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+#pagefooter a {
+  text-decoration: none;
+  color: #000;
+}
+#pagefooter a:hover {
+  text-decoration: underline;
+}
+  #menu li {
+    margin:0.5em 0;
+  }
+
+@media (min-width: 800px) {
+  #navigator a {
+    border-left: 1px solid #bde;
+  }
+  #navigator li:first-child a {
+    border-left: none;
+  }
+  #navigator a.actual {
+    border-bottom: 4px solid salmon;
+    padding-bottom: calc(1em - 4px);
+  }
+}
+
+@media (max-width: 800px) {
+  #super {
+    flex-direction: column;
+  }
+  #search {
+    margin:0.5em 0;
+  }
+  #search input {
+    width: inherit;
+  }
+  #search button {
+    padding: 0.5em 2em;
+  }
+  #toggle_nav {
+    display: block;
+    font-size: 1.6em;
+    padding:0.3em 1em;
+    text-align: center;
+    cursor: pointer;
+    border-bottom: 2px solid #fff;
+  }
+  #navigator>ul {
+    display: none;
+    flex-direction: column;
+  }
+  #navigator a {
+    display: block;
+    text-align: center;
+    padding: 0.3em;
+    font-size: 1.2em;
+    border-bottom: 2px solid #fff;
+  }
+  #pagemain h1 {
+    text-align: center;
+  }
+  /*#pagemain>section {
+    flex-direction: column;
+  }*/
+  #pagefooter {
+    flex-direction: column;
+  }
+  #pagefooter a {
+    display: block;
+    text-align: center;
+  }
+  #social {
+    margin-top: 2em;
+  }
+}

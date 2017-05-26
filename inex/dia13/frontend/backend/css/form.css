@@ -1,0 +1,45 @@
+.form {
+  background-color: gainsboro;
+  padding: 1em;
+  max-width: 600px;
+  /*margin: auto;*/
+}
+.form h1 {
+  margin-bottom: 1em;
+}
+.form p {
+  display: flex;
+  margin: 0.5em;
+}
+.form label {
+  width: 150px;
+}
+.form input,
+.form select,
+.form textarea {
+  width: 100%;
+  font-family: sans-serif;
+  font-size: 1em;
+  padding: 4px;
+}
+.form textarea {
+  height: 6em;
+  resize: vertical;
+}
+.form input[type=checkbox] {
+  width: 20px;
+}
+.form button {
+  margin-top: 1em;
+  padding: 0.5em 2em;
+  font-weight: bold;
+}
+
+@media (max-width: 800px) {
+  .form {
+    padding: 2px;
+  }
+  .form p {
+    flex-direction: column;
+  }
+}

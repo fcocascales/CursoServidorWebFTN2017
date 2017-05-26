@@ -102,8 +102,26 @@ class Index extends ClassIndex {
 			'title'=> "Página de ficha y buscador. Refactorización. Login backend",
 			'links'=> array(
 				'extranet5.md'=> "Continuación del frontend",
+				'backend5.md'=> "Empezando el backend",
 				'frontend/'=> "Versión 5 del frontend",
-				'frontend/backend/'=> "Login al backend",
+				'frontend/backend/'=> "Login al backend (pepe o bea y 123)",
+			)
+		),
+		array( // dia12
+			'title'=> "Gestor de productos en el backend",
+			'links'=> array(
+				'extranet6.md'=> "Correciones en el frontend ",
+				'backend6.md'=> "Empezando el backend",
+				'frontend/'=> "Frontend",
+				'frontend/backend/'=> "Backend (pepe o bea y 123)",
+			)
+		),
+		array( // dia13
+			'title'=> "Gestor de productos 2 en el backend",
+			'links'=> array(
+				'backend7.md'=> "Apuntes",
+				'frontend/'=> "Frontend",
+				'frontend/backend/'=> "Backend (pepe o bea y 123)",
 			)
 		),
 	);
