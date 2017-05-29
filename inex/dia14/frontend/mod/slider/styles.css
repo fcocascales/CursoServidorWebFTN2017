@@ -1,0 +1,12 @@
+#slider {
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  min-width:800px;
+}
+
+@media (max-width: 800px) {
+  #slider {
+    display: none;
+  }
+}

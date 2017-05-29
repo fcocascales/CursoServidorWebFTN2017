@@ -1,0 +1,56 @@
+/* gestor.css */
+
+.gestor div {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 1em;
+}
+.gestor div * {
+  margin: 0;
+}
+.gestor p {
+  font-size: 1.2em;
+}
+.gestor table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 1.5em;
+}
+.gestor thead th {
+  padding-bottom: 0.5em;
+}
+.gestor tbody tr:nth-child(odd) {
+  background-color: lavender;
+}
+.gestor tbody tr:hover {
+  background-color: gold;
+}
+.gestor tbody td {
+  padding:0.2em 0.5em;
+  color: #666;
+  font-size: 0.9em;
+}
+.gestor tbody td:nth-child(2) {
+  color: #000;
+  font-size: 1em;
+}
+.gestor tbody td:last-child {
+  text-align: center;
+  font-size: 1em;
+}
+.gestor tbody td:last-child a {
+  padding:0 0.5em;
+}
+.gestor tbody tr:hover .fa-times {
+  color: red;
+}
+
+@media (max-width: 800px) {
+  .gestor th, .gestor td { display:none; }
+  .gestor th:first-child,  .gestor td:first-child,
+  .gestor th:nth-child(2), .gestor td:nth-child(2),
+  .gestor th:last-child,   .gestor td:last-child {
+    display: table-cell;
+  }
+}

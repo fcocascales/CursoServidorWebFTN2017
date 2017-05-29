@@ -1,0 +1,2 @@
+ALTER TABLE categorias
+  ADD activado BOOLEAN DEFAULT TRUE;

@@ -1,0 +1,126 @@
+/* css/backend.css */
+
+/* etiquetas */
+
+body {
+  margin:0;
+  font-family: Verdana, Arial, sans-serif;
+  overflow-y: scroll;
+}
+a {
+  text-decoration: none;
+  color: darkcyan;
+}
+a:hover {
+  text-decoration: underline;
+}
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-weight: normal;
+}
+
+.info {
+  color: darkgreen;
+}
+.error {
+  color: darkred;
+}
+.flota {
+  float: right;
+}
+
+/* divisiones principales */
+
+#page {
+
+}
+#pageheader {
+
+}
+#pagemain {
+  padding: 1em;
+}
+#pagefooter {
+  border-top: 1px solid #ccc;
+  text-align: center;
+  color: #999;
+  padding-top: 0.5em;
+  margin-top: 1em;
+}
+
+/* superior */
+
+#super {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: gainsboro;
+  padding: 0.5em;
+}
+#logo {
+  margin-right: 1em;
+}
+#title {
+  display: flex;
+}
+#title h1 {
+  margin: 0;
+  font-weight: bold;
+}
+#title a {
+  color: #000;
+}
+#user strong::after {
+  content: " - ";
+}
+
+/* navigator */
+
+#navigator {
+  background-color: lavender;
+}
+#toggle_nav {
+  display: none;
+}
+#navigator ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+#navigator li {
+  flex: auto;
+  text-align: center;
+  border-left: 2px solid gainsboro;
+}
+#navigator li:first-child {
+  border-left: none;
+}
+#navigator a {
+  display: block;
+  padding: 0.5em 0;
+  font-size: 1.2em;
+}
+#navigator a:hover {
+  text-decoration: none;
+  background-color: darkcyan;
+  color: white;
+}
+
+@media (max-width: 800px) {
+  img {
+    max-width: 100%;
+  }
+  #super {
+    flex-direction: column;
+  }
+  #pagemain {
+    padding: 2px;
+  }
+  #navigator ul {
+    flex-wrap: wrap;
+  }
+  #navigator a {
+    padding: 0.5em;
+  }
+}

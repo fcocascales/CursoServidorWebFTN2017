@@ -1,0 +1,41 @@
+/* filtro.css */
+
+form.filtro  {
+  padding: 1.5em 0;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(0,0,0, 0.1);
+}
+
+form.filtro p {
+  margin:0;
+}
+
+form.filtro select {
+  max-width: 164px;
+}
+
+@media (max-width: 800px) {
+  form.filtro  {
+    flex-direction: column;
+  }
+  form.filtro p {
+    margin: 0.3em 0;
+  }
+  form.filtro label {
+    display: block;
+    text-align: center;
+  }
+  form.filtro select {
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+    padding:0.2em 0;
+  }
+  form.filtro button {
+    padding: 0.5em 2em;
+    display: block;
+    margin: 0 auto;
+    display: none;
+  }
+}
