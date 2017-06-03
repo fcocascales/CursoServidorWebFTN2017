@@ -20,4 +20,3 @@
   // PIE DE PÁGINA
 
   include "template/foot.php";
-?>

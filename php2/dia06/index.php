@@ -26,7 +26,7 @@
     <li><a href="func11.php">func11.php</a> &mdash; Retorna un array asociativo: extract()</li>
     <li><a href="func12.md">func12.md</a><br>
         <a href="func12.php">func12.php</a> &mdash; Ejercicio de funciones</li>
+    <li><a href="func13.php">func13.php</a> &mdash; Variables locales y variables globales</li>
   </ol>
-  <h2>Incluir</h2>
 </body>
 </html>

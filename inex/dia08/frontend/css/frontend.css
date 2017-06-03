@@ -54,6 +54,8 @@ body {
   #navigator a.actual {
     background-color:#000;
     color:#fff;
+    border-bottom:4px solid salmon;
+    padding-bottom:calc(1em - 4px);
   }
 #pagemain {
 

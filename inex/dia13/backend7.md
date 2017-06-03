@@ -34,3 +34,7 @@ Backend 7
     - frontend/img/productos  
   - Extraer los input y select en "campos.php" para incluirlo tanto en "insertar.php" como en "modificar.php"
   - Al seleccionar en el SELECT categoría, filtrar el SELECT de proveedores. Usar AJAX.
+
+## Modificar producto
+
+## Borrar producto

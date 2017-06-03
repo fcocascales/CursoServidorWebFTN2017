@@ -1,0 +1,22 @@
+{
+    "DUCK": {
+        "texto": "DuckDuckGo",
+        "link": "http:\/\/duckduckgo.com",
+        "visitas": 4
+    },
+    "WIKI": {
+        "texto": "Wikipedia",
+        "link": "http:\/\/www.wikipedia.org",
+        "visitas": 0
+    },
+    "PHP": {
+        "texto": "PHP.net",
+        "link": "http:\/\/php.net",
+        "visitas": 2
+    },
+    "SCHOOLS": {
+        "texto": "W3Schools",
+        "link": "http:\/\/w3schools.com",
+        "visitas": 0
+    }
+}

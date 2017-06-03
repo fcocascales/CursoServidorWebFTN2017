@@ -21,18 +21,30 @@
 
 $(function() { // Al terminar de cargar la página
 
-  $('#categoria_id').change(function () {
+  $('#categoria_id').change(function () { // Al seleccionar una categoría
     var idCategoria = $(this).val();
     var url = "../productos/proveedores.json.php?id="+idCategoria;
-    $.getJSON(url, function(proveedores) {
-      var options = "<option></option>";
-      // foreach($proveedores as $idProveedor=>$texto)
-      for (idProveedor in proveedores) {
-        var empresa = proveedores[idProveedor];
-        options += '<option value="'+idProveedor+'">'+empresa+'</option>';
-      }
-      $('#proveedor_id').html(options);
-    });
+    $.getJSON(url, actualizarListaProveedores); // Petición AJAX
   });
+
+  // Iniciar proveedores para la página "backend/productos/modificar.php"
+  (function () { // Función anónima y autoejecutable
+    var idCategoria = $('#categoria_id').val(); if (idCategoria == "") return;
+    var idProveedor = $('#proveedor_id').val();
+    var url = "../productos/proveedores.json.php?id="+idCategoria;
+    $.getJSON(url, function(proveedores) { // Petición AJAX
+      actualizarListaProveedores(proveedores);
+      $('#proveedor_id').val(idProveedor);
+    });
+  })();
+
+  function actualizarListaProveedores(proveedores) {
+    var options = "<option></option>";
+    for (id in proveedores) { // foreach($proveedores as $id=>$empresa)
+      var empresa = proveedores[id];
+      options += '<option value="'+id+'">'+empresa+'</option>';
+    }
+    $('#proveedor_id').html(options);
+  }
 
 });

@@ -124,6 +124,43 @@ class Index extends ClassIndex {
 				'frontend/backend/'=> "Backend (pepe o bea y 123)",
 			)
 		),
+		array( // dia14
+			'title'=> "Gestor de categorías. Uso de Ajax",
+			'links'=> array(
+				'backend8.md'=> "Apuntes y ejercicio",
+				'frontend/'=> "Frontend",
+				'frontend/backend/'=> "Backend (pepe o bea y 123)",
+			)
+		),
+		array( // dia15
+			'title'=> "Examen",
+			'links'=> array(
+				'examen.md'=> "Realización del examen teórico y práctico",
+			)
+		),
+		array( // dia16
+			'title'=> "MVC con CodeIgniter",
+			'links'=> array(
+				'mvc.md'=> "Apuntes de Modelo/Vista/Controlador",
+				'mvc/'=> "Web con CodeIgniter",
+			)
+		),
+		array( // dia17
+			'title'=> "MVC de noticias con CodeIgniter",
+			'links'=> array(
+				'mvc2.md'=> "Pasos a seguir para crear la web",
+				'bd_futbol.sql'=> "Base de datos",
+				'futbol/'=> "El sitio web",
+			)
+		),
+		array( // dia18
+			'title'=> "Continuación del MVC con CodeIgniter",
+			'links'=> array(
+				'mvc3.md'=> "Continuación del MVC",
+				'bd_futbol.sql'=> "Base de datos",
+				'futbol/'=> "El sitio web",
+			)
+		),
 	);
 }
 
